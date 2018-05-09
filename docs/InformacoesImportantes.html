@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Sobre a Madeira Madeira · GitBook</title>
+        <title>Informações Importantes · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,8 +61,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="VendaAOrdem.html" />
+    <link rel="next" href="cadastros/Readme.html" />
     
+    
+    <link rel="prev" href="VendaAOrdem.html" />
     
 
     </head>
@@ -91,7 +93,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -117,7 +119,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="InformacoesImportantes.html">
+        <li class="chapter active" data-level="1.3" data-path="InformacoesImportantes.html">
             
                 <a href="InformacoesImportantes.html">
             
@@ -231,7 +233,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Sobre a Madeira Madeira</a>
+        <a href="." >Informações Importantes</a>
     </h1>
 </div>
 
@@ -246,12 +248,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="integra&#xE7;&#xE3;o-entre-o-sistema-erp-tek-system-4g-e--o-e-commerce-madeira-madeira"><a name="integra&#xE7;&#xE3;o-entre-o-sistema-erp-tek-system-4g-e--o-e-commerce-madeira-madeira" class="plugin-anchor" href="#integra&#xE7;&#xE3;o-entre-o-sistema-erp-tek-system-4g-e--o-e-commerce-madeira-madeira"><i class="fa fa-link" aria-hidden="true"></i></a>Integra&#xE7;&#xE3;o entre o sistema ERP Tek-System 4G e  o E-commerce Madeira Madeira</h1>
-<h2 id="sobre-a-madeira-madeira"><a name="sobre-a-madeira-madeira" class="plugin-anchor" href="#sobre-a-madeira-madeira"><i class="fa fa-link" aria-hidden="true"></i></a>Sobre a Madeira Madeira</h2>
-<p>Madeira Madeira &#xE9; um E-commerce fundado em 2009 por Daniel e Marcelo Scandian com sede em Curitiba - Paran&#xE1;.
-A empresa tem uma pegada forte em tecnologia, com automatiza&#xE7;&#xE3;o de processos e integra&#xE7;&#xF5;es entre fornecedores e
-transportadores. Atualmente a empresa integra com os fornecedores, Pre&#xE7;os dos produtos, Estoque, Importa&#xE7;&#xE3;o de Pedidos,
-Envio de Nf-e e dados dos volumes para emiss&#xE3;o de etiquetas.</p>
+                                <h4 id="informa&#xE7;&#xF5;es-importantes"><a name="informa&#xE7;&#xF5;es-importantes" class="plugin-anchor" href="#informa&#xE7;&#xF5;es-importantes"><i class="fa fa-link" aria-hidden="true"></i></a>Informa&#xE7;&#xF5;es Importantes</h4>
+<ul>
+<li>Obrigat&#xF3;rio controlar estoque dos itens (Pedido e Assist&#xEA;ncia);</li>
+<li>Atribuir no par&#xE2;metro de funcionamento do sistema os status &#x201C;Faturamento Solicitado &#xE0; &#xF3;rg&#xE3;o&#x201D;, NFe &#x201C;Compartilhada ao &#xD3;rg&#xE3;o&#x201D; e &#x201C;Faturamento Pendente&#x201D;;</li>
+<li>Criar as transa&#xE7;&#xF5;es para nota fiscal de remessa simb&#xF3;lica. Nesta transa&#xE7;&#xE3;o deve desmarcar &#x201C;Movimenta Estoque&#x201D;, &#x201C;marcar Gera Receber&#x201D; e &#x201C;Venda &#xE0; Ordem&#x201D;;</li>
+<li>Criar as transa&#xE7;&#xF5;es para nota fiscal por conta e ordem (acobertar o transporte). Nesta transa&#xE7;&#xE3;o deve marcar &#x201C;Movimenta Estoque&#x201D; e desmarcar &#x201C;Gera Receber&#x201D; e &#x201C;Venda &#xE0; Ordem&#x201D;;</li>
+<li>Criar as tags caracter&#xED;sticas que ser&#xE3;o vinculadas aos itens, s&#xE3;o:<ol>
+<li>Compartilhar Item(l&#xF3;gico): Obrigat&#xF3;rio;</li>
+<li>Sequ&#xEA;ncia de montagem(num&#xE9;rico): Opcional;</li>
+<li>Quantidade m&#xE1;ximo a montar(num&#xE9;rico): Opcional;</li>
+<li>Quantidade reservada &#xE0; empresa(num&#xE9;rico): Opcional. Obs.: N&#xE3;o definindo as tags opcionais, a sequ&#xEA;ncia de montagem ser&#xE1; aleat&#xF3;ria, sempre ir&#xE1; montar o m&#xE1;ximo
+e n&#xE3;o ter&#xE1; estoque reservado a empresa.</li>
+</ol>
+</li>
+<li>Vincular ao &#x201C;Adquirente Original&#x201D; a(s) tabela de pre&#xE7;o(s) para pedido de venda e assist&#xEA;ncia, devendo especificar corretamente para o que estar&#xE1; dispon&#xED;vel
+(Pedido de Venda e/ou Assist&#xEA;ncia);</li>
+<li>Configurar no &#x201C;Padr&#xF5;es de Compra&#x201D; do Adquirente Original a &#x201C;Modalidade de Frete&#x201D; como Terceiros e &#x201C;Tipo Frete&#x201D; como Acess&#xF3;rios;</li>
+<li>Faturamento via processamento espec&#xED;fico: Na hip&#xF3;tese de erro de transmiss&#xE3;o, n&#xE3;o deve reprocessar documentos trocando a forma de emiss&#xE3;o, deve-se aguardar reestabelecer o servi&#xE7;o (SEF) ou cancelar/inutilizar;</li>
+<li>Automatizando todo o processo via agendamento, &#xE9; necess&#xE1;rio instalar o certificado digital no servidor. Este certificado digital deve ser do tipo A1.</li>
+</ul>
 
                                 
                                 </section>
@@ -279,8 +295,12 @@ Envio de Nf-e e dados dos volumes para emiss&#xE3;o de etiquetas.</p>
 
             
                 
+                <a href="VendaAOrdem.html" class="navigation navigation-prev " aria-label="Previous page: O que é Venda a Ordem?">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="VendaAOrdem.html" class="navigation navigation-next navigation-unique" aria-label="Next page: O que é Venda a Ordem?">
+                
+                <a href="cadastros/Readme.html" class="navigation navigation-next " aria-label="Next page: Cadastros e Configurações">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -291,7 +311,7 @@ Envio de Nf-e e dados dos volumes para emiss&#xE3;o de etiquetas.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Sobre a Madeira Madeira","level":"1.1","depth":1,"next":{"title":"O que é Venda a Ordem?","level":"1.2","depth":1,"path":"VendaAOrdem.md","ref":"VendaAOrdem.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"Readme.md","mtime":"2018-05-09T16:37:19.117Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-09T17:58:26.942Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Informações Importantes","level":"1.3","depth":1,"next":{"title":"Cadastros e Configurações","level":"1.4","depth":1,"path":"cadastros/Readme.md","ref":"cadastros/Readme.md","articles":[{"title":"Parametrização","level":"1.4.1","depth":2,"anchor":"#parametrização","path":"cadastros/Readme.md","ref":"cadastros/Readme.md#parametrização","articles":[]},{"title":"Usuário","level":"1.4.2","depth":2,"anchor":"#usuário","path":"cadastros/Readme.md","ref":"cadastros/Readme.md#usuário","articles":[]},{"title":"Tabela de Preços","level":"1.4.3","depth":2,"anchor":"#tabela-de-preço","path":"cadastros/Readme.md","ref":"cadastros/Readme.md#tabela-de-preço","articles":[]}]},"previous":{"title":"O que é Venda a Ordem?","level":"1.2","depth":1,"path":"VendaAOrdem.md","ref":"VendaAOrdem.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"InformacoesImportantes.md","mtime":"2018-05-09T16:53:23.478Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-09T17:58:26.942Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

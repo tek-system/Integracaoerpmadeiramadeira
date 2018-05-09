@@ -3,3 +3,5 @@
 out
 gen
 .idea/
+_book/
+node_modules/
