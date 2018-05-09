@@ -1,4 +1,4 @@
 {
-  "plugins" : [ "anchors" ],
+  "plugins" : [ "anchors", "-lunr", "-search", "search-plus"],
   "language": "pt"
 }
